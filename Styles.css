@@ -146,7 +146,7 @@ nav .navlinks li a{
     border: 2px solid white;
     box-shadow: 0 10px 10px -8px rgba(0 0 0 / 78%);
 }
-.button active{
+.button-group .button active{
     border-color: rgb(111, 0, 255);
 }
 
@@ -278,4 +278,79 @@ button {
 }
 button:hover {
     background-color: rgba(111, 0, 255, 0.357);
+}
+
+.Porfolio {
+    color: white;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 4rem;  
+}
+.empty-space {
+    height: 20px;
+    background-color:#222 ;
+
+}
+
+
+/* Styles for the ContactPage */
+.ContactPage {
+    width: 100%;
+    min-height: 100vh;
+    background: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactMe {
+    max-width: 800px; /* Adjust the max-width as needed */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 2rem; /* Adjust the font size as needed */
+}
+
+form {
+    margin-top: 20px;
+    color: white;
+    text-align: left; /* Align form elements to the left */
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccccccc0;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(111, 0, 255);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(111, 0, 255, 0.357);
+}
+
+.empty-space {
+    height: 20px;
+    background-color: #222;
 }
